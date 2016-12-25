@@ -2,6 +2,9 @@
  * Created by jlaba on 25.12.2016.
  */
 public class VideoAdapter implements VideoPlayer {
+    /**
+     * Class that choose which video player(depend on video format) should be played
+     */
 
     public void play(String videoType) {
 
